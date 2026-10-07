@@ -113,7 +113,7 @@ export default function Home() {
         </div>
 
         {/* Center: Strongman */}
-        <img src="/api/image?name=strongman_wheat" alt="Strongman" className="hero-character" />
+        <img src="/strongman_wheat.png" alt="Strongman" className="hero-character" />
         {/* Right Side: Stats & Details */}
         <div className="hero-stats-group">
           <div className="hero-stat-huge">15<span style={{ fontSize: '0.6em' }}>G</span> FIBER</div>
@@ -567,7 +567,7 @@ export default function Home() {
         
         {/* Right Image MUST be a sibling to the pink floor for mix-blend-mode to multiply against the background properly */}
         <img 
-          src="/api/image?name=strongman_wheat" 
+          src="/strongman_wheat.png" 
           alt="Vintage Strongman Guarantee" 
           className="guarantee-img"
         />
